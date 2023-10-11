@@ -2,7 +2,9 @@
     "rust-analyzer.linkedProjects": [
         "./Cargo.toml",
         "./thread/Cargo.toml",
-        "./channel/Cargo.toml"
+        "./channel/Cargo.toml",
+        "./dining_philosophers/Cargo.toml",
+        "./shared_state/Cargo.toml",
     ],
     "rust-analyzer.showUnlinkedFileNotification": false
 }
