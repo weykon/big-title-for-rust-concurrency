@@ -2,6 +2,7 @@ use std::sync::mpsc::Sender;
 use std::sync::{Arc, Mutex};
 use std::thread::{self, JoinHandle};
 use std::time::Duration;
+mod optimization;
 
 struct Fork(Arc<Mutex<bool>>);
 
