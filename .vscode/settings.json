@@ -6,6 +6,7 @@
         "./dining_philosophers/Cargo.toml",
         "./shared_state/Cargo.toml",
         "./skating/Cargo.toml",
+        "./async_basic/Cargo.toml",
     ],
     "rust-analyzer.showUnlinkedFileNotification": false
 }
