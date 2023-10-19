@@ -5,7 +5,7 @@ use std::{
 };
 
 use printer::Printer;
-fn exec() {
+fn main() {
     let printer = Printer::new();
     printer.print();
 
@@ -30,6 +30,4 @@ fn exec() {
             }
         });
     }
-
-    
 }

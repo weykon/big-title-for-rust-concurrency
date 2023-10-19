@@ -21,7 +21,6 @@ impl Printer {
 
     pub fn print(&self) {
         loop {
-            
             match self.terminal.try_recv() {
                 Ok(output) => self.format(output),
                 Err(err) => {
@@ -30,10 +29,6 @@ impl Printer {
                     }
                 }
             }
-            // let count = self.thread_count.lock().unwrap();
-            // if *count == -1 {
-            //     break;
-            // }
             use std::time::Duration;
             thread::sleep(Duration::from_millis(41));
         }
